@@ -19,7 +19,7 @@ http://localhost:8080
 Build
 
 ```
-docker build -t sourcerebels/bcrypt-password-tool:0.0.1-SNAPSHOT .
+./gradlew clean build && docker build -t sourcerebels/bcrypt-password-tool:0.0.1-SNAPSHOT .
 ```
 
 ```
