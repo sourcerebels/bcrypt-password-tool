@@ -1,6 +1,6 @@
-# Bcrypt Password Tool
+# Password Tool
 
-Tool to encode / match bcrypt secrets. 
+Tool to encode / match secrets. 
 
 ## Usage
 
@@ -19,9 +19,9 @@ http://localhost:8080
 Build
 
 ```
-./gradlew clean build && docker build -t sourcerebels/bcrypt-password-tool:0.0.1-SNAPSHOT .
+./gradlew clean build && docker build -t sourcerebels/password-tool:0.0.1-SNAPSHOT .
 ```
 
 ```
-docker run -d -p 8080:8080 --name bcrypt-password-tool sourcerebels/bcrypt-password-tool:0.0.1-SNAPSHOT
+docker run -d -p 8080:8080 --name password-tool sourcerebels/password-tool:0.0.1-SNAPSHOT
 ```

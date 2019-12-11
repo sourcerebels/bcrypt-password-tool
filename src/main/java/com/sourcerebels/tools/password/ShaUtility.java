@@ -1,4 +1,4 @@
-package com.sourcerebels.tools.bcryptpassword;
+package com.sourcerebels.tools.password;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

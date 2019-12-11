@@ -1,4 +1,4 @@
-package com.sourcerebels.tools.bcryptpassword;
+package com.sourcerebels.tools.password;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @SpringBootApplication
-public class BcryptPasswordToolApplication {
+public class PasswordToolApplication {
 
 
     @Bean
@@ -16,7 +16,7 @@ public class BcryptPasswordToolApplication {
     }
 
 	public static void main(String[] args) {
-		SpringApplication.run(BcryptPasswordToolApplication.class, args);
+		SpringApplication.run(PasswordToolApplication.class, args);
 	}
 
 }
